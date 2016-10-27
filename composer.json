@@ -1,0 +1,22 @@
+{
+    "name": "grummfy/php-debugbar-continuousphp",
+    "description": "Adding information from package build by continuousphp for the php debugbar",
+    "keywords": ["debugbar", "debug"],
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0",
+        "maximebf/debugbar": "^1.13"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grummfy",
+            "email": "me@grummfy.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Grummfy\\DebugBar\\": "src/"
+        }
+    }
+}
