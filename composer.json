@@ -5,7 +5,7 @@
     "type": "library",
     "require": {
         "php": ">=5.3.0",
-        "maximebf/debugbar": "^1.13"
+        "maximebf/debugbar": "^1.10.5"
     },
     "license": "MIT",
     "authors": [
