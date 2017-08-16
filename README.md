@@ -27,6 +27,8 @@ An example with [laravel](https://github.com/barryvdh/laravel-debugbar):
 Debugbar::addCollector(new Grummfy\DebugBar\ContinuousphpCollector('path/to/continuousphp.package'));
 ```
 
+Personally I add it inside an AppServiceProvider inside the providers directory.
+
 ## Demo
 
 To get a simple demo, go to demo dir and run
